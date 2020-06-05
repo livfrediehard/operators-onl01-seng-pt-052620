@@ -5,6 +5,6 @@ end
 
 
 def not_safe?(speed)
-	
+	!(40..60).include?(speed)
 end
 	
